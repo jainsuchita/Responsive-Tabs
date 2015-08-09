@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Tabs</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="tabs.js" ></script>
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+   <div class="transformer-tabs">
+		<ul class="tabs">
+			<!-- a custom attribute named data-tab and set its value to tab-1, tab-2 and so forth. It will be used in jQuery script to toggle the active class to hide and display tabs.-->		    
+		    <li class="tab-link active" data-tab="tab-1">Slide 1</li> 
+		    <li class="tab-link" data-tab="tab-2">Slide 2</li>
+		    <li class="tab-link" data-tab="tab-3">Slide 3</li>
+		    <li class="tab-link" data-tab="tab-4">Slide 4</li>
+	  	</ul>
+	  	
+		<div class = "tab-content active" id="tab-1">
+		    <h1> SLIDE1 </h1>
+		    <p> 
+		    	 Proin nec turpis eget dolor dictum lacinia. Nullam nunc magna, tincidunt eu porta in, faucibus sed magna. Suspendisse laoreet ornare ullamcorper. Nulla in tortor nibh. Pellentesque sed est vitae odio vestibulum aliquet in nec leo
+		    </p>
+		</div>
+	    <div class= "tab-content" id="tab-2">
+		    <h1> SLIDE2 </h1>
+		    <p>
+		    	Proin nec turpis eget dolor dictum lacinia. Nullam nunc magna, tincidunt eu porta in, faucibus sed magna. Suspendisse laoreet ornare ullamcorper. 
+		    </p>
+	    </div>
+	    <div class= "tab-content" id="tab-3">
+		    <h1> SLIDE3 </h1>
+		    <p>
+		    	Proin nec turpis eget dolor dictum lacinia ornare ullamcorper. Nulla in tortor nibh. Pellentesque sed est vitae odio vestibulum aliquet in nec leo
+		    </p>
+	    </div>
+	    <div class= "tab-content" id="tab-4">
+	    	<h1> SLIDE4 </h1>
+		    <p>
+		    	Suspendisse laoreet ornare ullamcorper. Nulla in tortor nibh. Pellentesque sed est vitae odio vestibulum aliquet in nec leo
+		    </p>
+	    </div>
+		
+	</div><!--container-->
+</body>
+</html>
